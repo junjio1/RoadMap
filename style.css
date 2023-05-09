@@ -47,12 +47,19 @@ header{
  #sobre{
      margin: 2% 0;
      text-align: center;
-     min-height: 95vh;
+     min-height: 85vh;
+
  }
 
  #sobre img{
-     width: 33%;
+     max-width: 33%;
 
+ }
+
+ #sobre a {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem;
  }
 
  #sobre ul{
