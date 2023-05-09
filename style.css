@@ -7,7 +7,8 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    background-color:#f5f0e3;
+    /* background-color:#f5f0e3; */
+    background-color: #ecfcff;
     margin: 0;
 }
 
@@ -23,15 +24,20 @@ header{
     
 }
 
+.wrapper{
+    min-height: 95vh;
+    text-align: center;
+
+} 
+
 .wrapper h1{
     text-align: center;
 }
-.link{
-    margin: 30px;
-}
+
  .link{
      color: #ecce6d;
      text-decoration: none;
+     margin: 30px;
  }
  .link:hover{
      color:#eef9bf;
@@ -39,7 +45,7 @@ header{
  }
 
  #sobre{
-     margin: 5% 0;
+     margin: 2% 0;
      text-align: center;
      min-height: 95vh;
  }
@@ -57,7 +63,7 @@ header{
  }
 
  .links{
-     padding: 3%;
+     padding: 2rem;
      background-color: var(--green);
      text-align: center;
  }
@@ -65,6 +71,7 @@ header{
 
 
  /* CARDS */
+
 
  .cards{
      max-width: 800px;
@@ -75,8 +82,9 @@ header{
  }
 
  .card{
-     background-color:#f7d6959a;
+     background-color:#dbdbdb;
      display: grid;
+     cursor: pointer;
  }
 
  .card_image-container img {
@@ -85,20 +93,21 @@ header{
 
  .card_info,
  .card_content{
-     padding: 24px;
+     padding: 0.5rem;
+     font-weight: bold;
  }
 
- .card_info{
+ /* .card_info{
      display: grid;
      grid-template-columns: 1fr 1fr;
      text-align: center;
- }
+ } */
 
- .card_price{
+ /* .card_price{
      background-color: #ecce6d;
      border-radius: 15px;
      padding: 5px 20px;
- }
+ } */
 
 
  /* modal overlay */
